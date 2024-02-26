@@ -95,3 +95,4 @@ class School {
   const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'Volleyball', 'Track and Field']);
   // Calling the sportsTeams method on the alSmith instance
   alSmith.sportsTeams;
+  
