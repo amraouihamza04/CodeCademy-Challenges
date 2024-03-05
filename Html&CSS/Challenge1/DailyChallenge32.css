@@ -1,0 +1,109 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Body Styling */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+}
+
+input, button {
+    height: 30px;
+    width: 150px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+
+
+
+
+/* Navbar Styling */
+.navbar {
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#logo a {
+    display: block;
+}
+
+
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+/* Hero Section Styling */
+.hero {
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Hover Effects */
+.navbar a:hover,
+footer a:hover {
+    color: #ffcc00;
+}
+
+/* Focus Effect */
+input:focus {
+    border: 2px solid #007bff;
+}
+
+/* Optional: Decorative Elements */
+.navbar a:hover::before,
+footer a:hover::before {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #ffcc00;
+}
+
